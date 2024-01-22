@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "funnytesselator",
+  "id": "sillyrendering",
   "version": "${version}",
-  "name": "FunnyTesselator",
-  "description": "",
+  "name": "sillyrendering",
+  "description": "makes your game renderer silly!",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/danil/FunnyTesselator"
+    "repo": "https://github.com/danilwhale/SillyRendering"
   },
   "license": "MIT",
-  "icon": "assets/funnytessellator/icon.png",
+  "icon": "assets/sillyrendering/icon.png",
   "environment": "client",
   "mixins": [
-    "funnytessellator.mixins.json"
+    "sillyrendering.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
