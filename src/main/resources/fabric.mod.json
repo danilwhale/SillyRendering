@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "funnytesselator",
+  "version": "${version}",
+  "name": "FunnyTesselator",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/danil/FunnyTesselator"
+  },
+  "license": "MIT",
+  "icon": "assets/funnytessellator/icon.png",
+  "environment": "client",
+  "mixins": [
+    "funnytessellator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
