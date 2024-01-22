@@ -23,7 +23,7 @@ public abstract class BufferBuilderMixin {
     }
 
     @Inject(method = "vertex", at = @At("TAIL"))
-    private void randomizeVertexBufferPut(float x, float y, float z, float red, float green, float blue, float alpha, float u, float v, int overlay, int light, float normalX, float normalY, float normalZ, CallbackInfo ci) {
+    private void randomizeVertexPutBuffer(float x, float y, float z, float red, float green, float blue, float alpha, float u, float v, int overlay, int light, float normalX, float normalY, float normalZ, CallbackInfo ci) {
         if (this.canSkipElementChecks) {
             this.putFloat(0, x);
             this.putFloat(4, y);

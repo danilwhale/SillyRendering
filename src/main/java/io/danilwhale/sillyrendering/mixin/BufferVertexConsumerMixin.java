@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
 @Mixin(BufferVertexConsumer.class)
 public interface BufferVertexConsumerMixin {
     @ModifyArgs(method = "vertex", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/BufferVertexConsumer;putFloat(IF)V"))
-    private void randomizeVertexFb(Args args) {
+    private void randomizeVertexPutFloatCall(Args args) {
         args.set(1, (float)args.get(1) + (float)Math.random());
     }
 }
