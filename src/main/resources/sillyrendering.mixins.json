@@ -6,7 +6,6 @@
   "mixins": [
   ],
   "client": [
-    "BakedQuadFactoryMixin",
     "BufferBuilderMixin",
     "BufferVertexConsumerMixin",
     "ModelPartCuboidMixin",
