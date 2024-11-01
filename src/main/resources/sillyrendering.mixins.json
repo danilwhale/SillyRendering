@@ -1,15 +1,9 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "io.danilwhale.sillyrendering.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
+  "package": "danilwhale.sillyrendering.mixin",
+  "compatibilityLevel": "JAVA_21",
   "client": [
-    "BufferBuilderMixin",
-    "BufferVertexConsumerMixin",
-    "ModelPartCuboidMixin",
-    "VertexConsumerMixin"
+    "BufferBuilderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

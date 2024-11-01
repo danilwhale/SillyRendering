@@ -1,0 +1,11 @@
+﻿{
+  "modmenu.descriptionTranslation.sillyrendering": "робить рендерер майнкрафт дурним!",
+  "text.autoconfig.sillyrendering.title": "конфігурація sillyrendering",
+  "text.autoconfig.sillyrendering.option.intensity": "інтенсивність",
+  "text.autoconfig.sillyrendering.option.randomizeVertex": "рандомізація значень позиції",
+  "text.autoconfig.sillyrendering.option.randomizeTextureOffset": "рандомізація значень зміщення текстури",
+  "text.autoconfig.sillyrendering.option.randomizeNormal": "рандомізація значень нормалі",
+  "text.autoconfig.sillyrendering.option.randomizeColor": "рандомізація значень кольору",
+  "text.autoconfig.sillyrendering.option.randomizeLight": "рандомізація значень світла",
+  "text.autoconfig.sillyrendering.option.useClassicRandom": "використовувати старий рандом"
+}

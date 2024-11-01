@@ -3,19 +3,28 @@
   "id": "sillyrendering",
   "version": "${version}",
   "name": "sillyrendering",
-  "description": "makes your game renderer silly!",
-  "authors": [],
+  "description": "makes minecraft renderer silly!",
+  "authors": ["danilwhale"],
   "contact": {
-    "repo": "https://github.com/danilwhale/SillyRendering"
+    "homepage": "https://modrinth.com/mod/sillyrendering",
+    "sources": "https://github.com/danilwhale/SillyRendering",
+    "issues": "https://github.com/danilwhale/SillyRendering"
+  },
+  "entrypoints": {
+    "client": [
+      "danilwhale.sillyrendering.SillyRendering"
+    ],
+    "modmenu": [
+      "danilwhale.sillyrendering.SillyRenderingModMenuIntegration"
+    ]
   },
   "license": "MIT",
   "icon": "assets/sillyrendering/icon.png",
   "environment": "client",
-  "mixins": [
-    "sillyrendering.mixins.json"
-  ],
+  "mixins": ["sillyrendering.mixins.json"],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
   }
 }

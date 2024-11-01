@@ -1,0 +1,10 @@
+﻿{
+  "text.autoconfig.sillyrendering.title": "sillyrendering configuration",
+  "text.autoconfig.sillyrendering.option.intensity": "intensity",
+  "text.autoconfig.sillyrendering.option.randomizeVertex": "randomize position values",
+  "text.autoconfig.sillyrendering.option.randomizeTextureOffset": "randomize texture offset values",
+  "text.autoconfig.sillyrendering.option.randomizeNormal": "randomize normal values",
+  "text.autoconfig.sillyrendering.option.randomizeColor": "randomize color values",
+  "text.autoconfig.sillyrendering.option.randomizeLight": "randomize light values",
+  "text.autoconfig.sillyrendering.option.useClassicRandom": "use classic random"
+}
